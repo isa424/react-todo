@@ -1,0 +1,29 @@
+{
+  "name": "react-todo",
+  "version": "1.0.0",
+  "description": "React todo app",
+  "private": true,
+  "repository": "https://github.com/isa424/react-todo",
+  "author": "isaishan424@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@hot-loader/react-dom": "^16.8.6",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "react-hot-loader": "^4.8.4",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
